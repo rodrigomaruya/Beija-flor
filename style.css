@@ -8,13 +8,14 @@ src: url(font/Ghastly\ Panic.ttf) format('truetype');
     padding: 0px;
 }
 body{
-background-image: url('fotos/rosas.jpg');
-background-size: cover;
-background-repeat: no-repeat;
-height: 100vh;
+    
+    background-image: url('fotos/rosas.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
 }
 main{
-    
+    background-image: linear-gradient();
     background-color: rgba(0, 0, 0, 0);
     max-width: 1000px;
     min-width: 300px;
@@ -34,11 +35,11 @@ h1{
 
 #font{
     visibility: hidden;
-   padding-top:10px ;
-text-align: center;
-font-family:'gost';
-color:red;
-font-size: 7em;
+    padding-top:10px ;
+    text-align: center;
+    font-family:'gost';
+    color:red;
+    font-size: 7em;
 }
 div.jogo{
     display: none;
